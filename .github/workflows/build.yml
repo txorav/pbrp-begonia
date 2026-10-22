@@ -14,7 +14,7 @@ on:
       manifest_branch:
         description: 'PBRP manifest branch'
         required: false
-        default: 'pb-12.1'
+        default: 'android-12.1'
       jobs:
         description: 'Parallel make jobs'
         required: false
@@ -37,7 +37,7 @@ permissions:
 
 env:
   MANIFEST_URL: 'https://github.com/PitchBlackRecoveryProject/manifest_pb.git'
-  MANIFEST_BRANCH: ${{ github.event.inputs.manifest_branch || 'pb-12.1' }}
+  MANIFEST_BRANCH: ${{ github.event.inputs.manifest_branch || 'android-12.1' }}
   SRC_DIR: 'aosp'
   CCACHE_DIR: '${{ github.workspace }}/.ccache'
 
