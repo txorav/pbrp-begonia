@@ -1,6 +1,6 @@
 #
-# Copyright (C) 2022-2026 The Android Open Source Project
-# Copyright (C) 2022-2026 PitchBlack Recovery Project
+# Copyright (C) 2022 The Android Open Source Project
+# Copyright (C) 2022 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -18,6 +18,6 @@ $(call inherit-product, vendor/pb/config/common.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
 PRODUCT_NAME := pb_begonia
-PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi Note 8 Pro
-PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_BRAND := Randi
+PRODUCT_MODEL := Nut 8 Pro
+PRODUCT_MANUFACTURER := xiaomi
